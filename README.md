@@ -20,6 +20,6 @@ This is my MVC project where I built a Multilayer Perceptron from scratch; first
 4. Outputs: loss curve, test accuracy, sample predictions
 
 #Results
--1.Training epochs: 20
--2.Final MSE Loss: 0.0069
--3.Test Accuracy: **95.54%**
+1. Training epochs: 20
+2. Final MSE Loss: 0.0069
+3. Test Accuracy: **95.54%**
