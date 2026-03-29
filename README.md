@@ -8,10 +8,10 @@ This is my MVC project where I built a Multilayer Perceptron from scratch; first
 
 #Repo Structure
 
-src/        —7 Jupyter Notebook (.ipynb)
-data/       —3 MNIST dataset file (mnist.npz)
-report/     -D PDF report compiled from Overleaf
-README.md   -> Current
+src/        — Jupyter Notebook (.ipynb)
+data/       — MNIST dataset file (mnist.npz)
+report/     - PDF report compiled from Overleaf
+README.md   - Current
 
 #How to run
 1. Open `src/` and upload the notebook to Google Colab
