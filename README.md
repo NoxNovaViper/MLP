@@ -1,25 +1,23 @@
-# MVC Project Multilayer Perceptron(MLP)
-**Roll No:** 25i3010  
-**Course:** Artificial Neural Networks  
-**University:** FAST-NU, Islamabad
+# MLP
 
-#What is this?
-This is my MVC project where I built a Multilayer Perceptron from scratch; first by hand for a small dataset, then in Python on MNIST.
+A project implementing a Multilayer Perceptron from scratch, beginning with a manual small-dataset approach and then extending to a Python-based MNIST classifier.
 
-#Repo Structure
+## Overview
+This repository contains my implementation of a neural network for handwritten digit recognition. The goal is to understand the fundamentals of feedforward networks, backpropagation, and model evaluation through both a conceptual and practical implementation.
 
-1. src/        — Jupyter Notebook (.ipynb)
-2. data/       — MNIST dataset file (mnist.npz)
-3. report/     - PDF report compiled from Overleaf
-4. README.md   - Current
+## Project Structure
+- `src/` — Jupyter notebooks containing the implementation
+- `data/` — MNIST dataset (`mnist.npz`)
+- `report/` — project report and supporting documents
+- `README.md` — project documentation
 
-#How to run
-1. Open `src/` and upload the notebook to Google Colab
-2. Make sure `mnist.npz` is uploaded to the Colab session (from `data/`)
-3. Run all cells in order
-4. Outputs: loss curve, test accuracy, sample predictions
+## How to Run
+1. Open the notebook in `src/`.
+2. Run it in Google Colab or a local Jupyter environment.
+3. Make sure `mnist.npz` is available in the working directory.
+4. Execute all cells in order.
 
-#Results
-1. Training epochs: 20
-2. Final MSE Loss: 0.0069
-3. Test Accuracy: **95.54%**
+## Results
+- Training epochs: 20
+- Final MSE loss: 0.0069
+- Test accuracy: 95.54%
